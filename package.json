@@ -6,10 +6,9 @@
     "main": "index.js",
     "scripts": {
         "dev": "cross-env NODE_ENV=development webpack-dev-server",
-        "build": "cross-env NODE_ENV=production webpack --mode=production --progress --colors --bail && npm run move_file",
+        "build": "cross-env NODE_ENV=production webpack --mode=production --progress --colors --bail",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "move_file": "node ./bin/move-file.js",
-        "giotAutoPush": "node ./bin/check-deps.js"
+        "move_file": "node ./bin/move-file.js"
     },
     "keywords": [
         "ecosystem:cordova"
