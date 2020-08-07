@@ -34,3 +34,14 @@ npm i -D style-loader css-loader postcss-loader autoprefixer postcss-simple-vars
 npm i -D @babel/core babel-loader babel-preset-react-app --registry=https://registry.npm.taobao.org
 npm i -S react-app-polyfill --registry=https://registry.npm.taobao.org
 ```
+
+7. 运行
+```shell
+npm install   // 安装依赖
+npm run dev   // http://localhost:8888/#/
+```
+
+8. 打包
+```shell
+npm run build
+```
