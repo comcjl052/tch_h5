@@ -1,0 +1,62 @@
+@import '../../assets/style/global.less';
+
+.cash-out-log {
+    min-height: 100%;
+    background-color: #f7f7f7;
+
+    .log-content {
+        .income_item {
+            padding: 0.24rem;
+            background: #fff;
+
+            .top {
+                .flex-fs();
+
+                .left,
+                .right {
+                    width: 50%;
+                }
+
+                .tit {
+                    font-size: 0.24rem;
+                    color: #aaa;
+                }
+
+                .price {
+                    margin-top: 0.12rem;
+                    font-size: 0.26rem;
+                    color: #333333;
+
+                    span {
+                        font-size: 0.48rem;
+                    }
+
+                    &.one {
+                        color: #F78234;
+                    }
+                }
+            }
+        }
+
+        .log_item {
+            padding: 0.24rem;
+            background: #fff;
+            font-size: 0.24rem;
+            color: #aaa;
+
+            .one {
+                margin-bottom: 0.12rem;
+                .flex-sb();
+            }
+
+            .log_price {
+                font-size: 0.28rem;
+                color: #333;
+            }
+
+            &.no_data {
+                .flex-center();
+            }
+        }
+    }
+}

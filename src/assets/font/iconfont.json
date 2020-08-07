@@ -1,0 +1,86 @@
+{
+  "id": "1945426",
+  "name": "tch_h5",
+  "font_family": "tongchenghui",
+  "css_prefix_text": "tch_",
+  "description": "同城惠小程序",
+  "glyphs": [
+    {
+      "icon_id": "3107210",
+      "name": "垃圾桶",
+      "font_class": "del",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "1939740",
+      "name": "右",
+      "font_class": "left",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "2507442",
+      "name": "右",
+      "font_class": "right",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "6060462",
+      "name": "对",
+      "font_class": "ok",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "7054550",
+      "name": "新建事件单—刷新",
+      "font_class": "refresh",
+      "unicode": "ea29",
+      "unicode_decimal": 59945
+    },
+    {
+      "icon_id": "9966060",
+      "name": "定位",
+      "font_class": "addr",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10800586",
+      "name": "i",
+      "font_class": "blank",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "12516960",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12630519",
+      "name": "筛选",
+      "font_class": "screen",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "14228329",
+      "name": "时间",
+      "font_class": "time",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "14463165",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}

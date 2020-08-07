@@ -1,0 +1,38 @@
+.GoodListComponent {
+    padding: 10px;
+
+    .item {
+        margin-bottom: 2%;
+        width: 49%;
+        display: inline-block;
+        background: #c1c1c11a;
+
+        &:nth-child(2n - 1) {
+            margin-right: 2%;
+        }
+
+        // &:nth-last-child(2) {
+        //     margin-bottom: 0;
+        // }
+
+        .item-img {
+            margin-bottom: 10px;
+
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .item-name {
+            padding: 0 10px;
+
+        }
+
+        .item-price {
+            padding: 5px 10px;
+            font-size: 24px;
+            color: #f20;
+        }
+    }
+}

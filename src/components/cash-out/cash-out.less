@@ -1,0 +1,66 @@
+@import '../../assets/style/global.less';
+
+.cash-out {
+    min-height: 100%;
+    background-color: #f7f7f7;
+
+    .cash-content {
+        .mt_12 {
+            margin-top: 0.24rem;
+        }
+
+        .c_item {
+            padding: 0.2rem 0.24rem;
+            background: #fff;
+            border-bottom: 1px solid rgba(215, 215, 215, 1);
+            font-size: 0.26rem;
+            color: #333;
+
+            &.num_box {
+                .flex-sb();
+
+                .number {
+                    color: #8080FF;
+                }
+            }
+
+            &.mt_12 {
+                padding-right: 0;
+                border-top: 1px solid rgba(215, 215, 215, 1);
+            }
+
+            .c_price {
+                margin-bottom: 0.24rem;
+                padding: 0.2rem 0;
+                border-bottom: 1px solid rgba(215, 215, 215, .5);
+                .flex-fs();
+                align-items: flex-end;
+                font-size: 0.5rem;
+
+                .price {
+                    font-size: 1rem;
+                }
+            }
+
+            .c_foot {
+                color: #aaa;
+            }
+        }
+
+        .c_tips {
+            padding: 0.24rem;
+            font-size: 0.2rem;
+            color: #aaa;
+
+            .log {
+                margin-top: 0.48rem;
+                font-size: 0.24rem;
+                color: #02A7F0;
+            }
+        }
+    }
+
+    .fixed_box {
+        background-color: @transparent;
+    }
+}

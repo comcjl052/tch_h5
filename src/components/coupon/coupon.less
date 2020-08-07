@@ -1,0 +1,55 @@
+@import '../../assets/style/global.less';
+
+.coupon_box {
+    margin-top: 0.24rem;
+    background: #fff;
+    border-radius: @borderRadius;
+    overflow: auto; // 这里有个什么的问题，负级margin-top负值时，bgc失效，overflow为scroll时才正常
+
+    .item_tit {
+        padding: 0.24rem 0.24rem 0;
+        font-weight: 500;
+        font-size: 0.32rem;
+        color: #111;
+        .flex-sb();
+
+        .more {
+            font-size: 0.28rem;
+            color: #999;
+
+            .tch_right {
+                font-size: 0.24rem;
+            }
+        }
+    }
+
+    .item_goods {
+        padding: 0.24rem;
+        .flex-fs();
+
+        .store_coupon {
+            .flex-fs();
+            display: -webkit-box;
+            white-space: nowrap;
+            overflow-y: hidden;
+            overflow-x: scroll;
+
+            .coupon_item {
+                // margin-right: 5%;
+                // width: 43%;
+                margin-right: 0.12rem;
+                width: 3.2rem;
+                height: 1.68rem;
+                display: inline-block;
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+
+                .c_img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

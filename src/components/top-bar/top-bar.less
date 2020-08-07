@@ -1,0 +1,74 @@
+@import '../../assets/style/global.less';
+
+.topBar {
+    padding: 0 0.24rem;
+    width: 100%;
+    max-width: 750px;
+    background-color: @topBarBgColor;
+    position: fixed;
+    // left: 0;
+    top: 0;
+    z-index: 999;
+
+    &.isIndex {
+        .search_bar {
+            display: none;
+        }
+    }
+
+    .title_bar {
+        height: 0.88rem;
+        .flex-fs();
+        font-size: 0.32rem;
+        color: #fff;
+    }
+
+    .back {
+        font-size: 0.32rem;
+        font-weight: bold;
+    }
+
+    .search_bar {
+        padding: 0.24rem 0;
+        .flex-fs();
+
+        .addr_box {
+            padding: 0.05rem 0;
+            // width: 20%;
+            height: 0.7rem;
+            border-radius: 1rem;
+            font-size: 0.28rem;
+            color: #fff;
+            .flex-center();
+
+            .location_icon {
+                margin-right: 0.08rem;
+                width: 0.20rem;
+            }
+
+            .location_down {
+                margin-left: 0.16rem;
+                width: 0.1rem;
+                transform: rotate(90deg);
+            }
+        }
+
+        .search_input {
+            margin-left: 0.18rem;
+            // width: 77%;
+            width: 5.79rem;
+            height: 0.7rem;
+            border-radius: 0.35rem;
+            background-color: rgba(255, 255, 255, 1);
+            font-size: 0.26rem;
+            color: #999;
+            .flex-center();
+
+            .searchIco {
+                // width: 0.1rem;
+                margin-right: 0.1rem;
+                font-size: 0.26rem;
+            }
+        }
+    }
+}

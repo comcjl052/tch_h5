@@ -1,0 +1,120 @@
+@import '../../assets/style/global.less';
+
+.module_item {
+    margin-top: 0.24rem;
+    background: #fff;
+    border-radius: @borderRadius;
+
+    .item_tit {
+        padding: 0.24rem 0.24rem 0;
+        font-weight: 500;
+        font-size: 0.32rem;
+        color: #111;
+        .flex-sb();
+
+        .more {
+            font-size: 0.28rem;
+            color: #999;
+
+            .tch_right {
+                font-size: 0.24rem;
+            }
+        }
+    }
+
+    .item_goods {
+        padding: 0.24rem;
+        // .flex-fs();
+
+        .g_items {
+            // margin-right: 5%;
+            // width: 30%;
+            margin-right: 0.12rem;
+            width: 2.14rem;
+            display: inline-block;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+
+            .g_img {
+                // width: 100%;
+                width: 2.14rem;
+                height: 2.14rem;
+                position: relative;
+
+                .gImg {
+                    width: 2.14rem;
+                    height: 2.14rem;
+                    display: block;
+                    border-radius: 0.08rem;
+                }
+
+                .tag {
+                    padding: 0.04rem 0.16rem;
+                    background: #D9001B;
+                    border-radius: @borderRadius;
+                    text-align: center;
+                    font-size: 0.24rem;
+                    color: #fff;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+            }
+
+            .g_title,
+            .g_coupon,
+            .g_price {
+                margin-top: 0.18rem;
+                font-size: 0.28rem;
+            }
+
+            .g_title {
+                color: #333;
+            }
+
+            .g_price {
+                color: #FF5000;
+                font-size: 0.36rem;
+
+                .old_price {
+                    font-size: 0.2rem;
+                    color: #7F7F7F;
+                }
+            }
+
+            .g_coupon {
+                position: relative;
+
+                .c_items {
+                    padding: 0.08rem 0.16rem;
+                    display: inline-block;
+                    background: rgba(255, 80, 0, 0.1);
+                    border-radius: 0.06rem;
+                    font-size: 0.2rem;
+                    color: #FF5000;
+                }
+
+                .g_cashback {
+                    padding: 0.06rem 0.24rem 0.06rem 0.48rem;
+                    display: inline-block;
+                    background-image: linear-gradient(90deg, #FC593C 0%, #FF4443 100%);
+                    border-radius: 1rem;
+                    font-size: 0.24rem;
+                    color: #fff;
+                }
+
+                .cb_img {
+                    width: 0.5rem;
+                    display: block;
+                    position: absolute;
+                    left: -0.05rem;
+                    top: -0.03rem;
+                }
+            }
+
+
+        }
+    }
+}

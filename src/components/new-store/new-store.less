@@ -1,0 +1,104 @@
+@import '../../assets/style/global.less';
+
+.new-store {
+    min-height: 100%;
+    background: @mainBgColor;
+
+    .store_container {
+        padding: 0.18rem;
+
+        .store_item {
+            margin-bottom: 0.18rem;
+            padding: 0.42rem;
+            background: #fff;
+            border-radius: 5px;
+
+            .top_item {
+                margin-bottom: 0.26rem;
+                position: relative;
+                .flex-fs();
+
+                .s_logo {
+                    width: 0.72rem;
+                    height: 0.72rem;
+                    display: block;
+                    border-radius: 50%;
+                }
+
+                .middle {
+                    margin-left: 0.16rem;
+                    width: 65%;
+
+                    .t_title {
+                        font-size: 0.28rem;
+                        color: #111111;
+                    }
+
+                    .m_price {
+                        margin-top: 0.09rem;
+                        font-size: 0.24rem;
+                        color: #666666;
+                    }
+                }
+
+                .right {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+
+                    .entryStore {
+                        padding: 0.08rem 0.16rem;
+                        background-image: linear-gradient(90deg, #FF8000 2%, #FF5000 100%);
+                        border-radius: 1rem;
+                        .flex-center();
+                        font-size: 0.28rem;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .middle_item {
+                padding: 0.15rem;
+                background: @mainBgColor;
+                border-radius: 0.12rem;
+                .flex-sb();
+
+                .m_left {
+                    width: calc(100% - 0.8rem);
+                    .flex-fs();
+
+                    .m_item {
+                        margin-right: 0.12rem;
+                        padding: 0.08rem 0.1rem;
+                        display: inline-block;
+                        // height: 0.4rem;
+                        // line-height: 0.4rem;
+                        background: rgba(255, 80, 0, 0.10);
+                        border-radius: 0.06rem;
+                        font-size: 0.24rem;
+                        text-align: center;
+                        color: #FF5000;
+                    }
+                }
+
+                .m_right {
+                    width: 0.8rem;
+                    font-size: 0.26rem;
+                    color: #999999;
+                    text-align: right;
+                }
+            }
+
+            .foot_item {
+                margin-top: 0.18rem;
+
+                .m_img {
+                    width: 100%;
+                    border-radius: 0.06rem;
+                    display: block;
+                }
+            }
+
+        }
+    }
+}

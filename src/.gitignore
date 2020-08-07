@@ -1,0 +1,7 @@
+node_modules
+www/*
+!www/.gitkeep
+.DS_Store
+.vscode/
+Thumbs.db
+package-lock.json

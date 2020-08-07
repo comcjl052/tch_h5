@@ -1,0 +1,62 @@
+@import '../../assets/style/global.less';
+
+.brand_item {
+    margin-top: 0.18rem;
+    background: #fff;
+    border-radius: @borderRadius;
+
+    .item_tit {
+        padding: 0.24rem 0.24rem 0;
+        font-weight: 500;
+        font-size: 0.28rem;
+        .flex-sb();
+
+        .more {
+            font-size: 0.24rem;
+            color: #A7ABC3;
+        }
+    }
+
+    .item_goods {
+        padding: 0.24rem;
+        .flex-fs();
+
+        .g_items {
+            margin-right: 5%;
+            width: 30%;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+
+            .g_img {
+                width: 100%;
+                position: relative;
+
+                .gImg {
+                    width: 100%;
+                    display: block;
+                    border-radius: @borderRadius;
+                }
+
+                .tag {
+                    padding: 0.04rem 0.16rem;
+                    background: #D9001B;
+                    border-radius: @borderRadius;
+                    text-align: center;
+                    font-size: 0.24rem;
+                    color: #fff;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+            }
+
+            .g_title {
+                margin-top: 0.12rem;
+                font-size: 0.28rem;
+                color: #333;
+            }
+        }
+    }
+}
